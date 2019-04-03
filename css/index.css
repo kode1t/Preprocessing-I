@@ -133,13 +133,22 @@ table {
 html,
 body {
   height: 100%;
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  max-width: 1000px;
+  margin: 0;
+  font-size: 1.6rem;
 }
 header {
-  border-bottom: 1px solid black;
-  margin: 15px;
-  padding: 15px;
   display: flex;
   justify-content: flex-end;
+  font-size: 20px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
 }
 header nav a {
   text-decoration: none;
@@ -149,13 +158,14 @@ header nav a:hover {
   text-decoration: underline;
   color: gray;
 }
-body {
-  background-color: lightblue;
-  font-family: 'Open Sans', sans-serif;
-}
 img {
+  width: 100%;
+  height: auto;
   display: flex;
+  border-radius: 10px;
   max-width: 50%;
   max-height: 50%;
-  padding-left: 10px;
+}
+.main-bio {
+  background-color: grey;
 }
